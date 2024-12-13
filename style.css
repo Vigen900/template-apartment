@@ -1,0 +1,89 @@
+.conteiner{
+    display: flex;
+}
+.left-container{
+    width: 300px;
+    height: 100%;
+    margin-left: 200px;
+    padding: 16px;
+    background-color: #f1f1f1!important;
+}
+.nav-bar{
+    overflow: hidden;
+}
+.left-container hr{
+    border-top: .05px solid #eee;
+}
+.search-btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: #4CAF50!important;
+    color: white;
+    border: none;
+}
+.search-btn :hover{
+    background-color: #eee;
+}
+.hrefes{
+    width: 1px;
+    margin-bottom: 15px;
+}
+.hrefes a{
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.right-conteiner{
+    padding: 16px;
+}
+.right-conteiner h1{
+    color: green;
+    
+}
+.row{
+    display: grid;
+    align-items: start;
+}
+.col{
+    display: grid;
+    justify-items: center;
+    grid-row-start: 1;
+}
+.col-2{
+    display: grid;
+    justify-items: center;
+    grid-row-start: 1;
+    padding-right: 450px;
+}
+hr{
+    border-top: .05px solid #eee;
+}
+.extra-info p{
+    font-size: 26px;
+    line-height: 1.5;
+    font-size: large;
+}
+.subs-btn{
+    width: 200px;
+    height: 30px;
+    background-color: #4CAF50!important;
+    color: white;
+    border: none;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-info input{
+    width: 100%;
+    height: 30px;
+}
+.mess-btn{
+    width: 200px;
+    height: 30px;
+    background-color: #4CAF50!important;
+    color: white;
+    border: none;
+}
